@@ -1,0 +1,28 @@
+html *{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('images/pitch.jpg');
+ }
+
+h1 {
+    color: white;
+}
+
+.stats {
+    background: linear-gradient(45deg, transparent 0% 40%, rgb(64, 64, 255) 40% 100%);
+}
+
+.team {
+    background-color: rgb(238, 238, 238);
+    line-height: 3.5rem;
+}
+
+/* tbody:before {
+    line-height:1em;
+    content:".";
+    background-color: black;
+    color: transparent;
+    display:block;
+} */
