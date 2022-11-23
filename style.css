@@ -21,11 +21,9 @@ body {
   
   .content {
     padding: 2rem 0; }
-  
-  h2 {
-    font-size: 20px;
-    color: #fff; }
-  
+   
+  .th
+
   .custom-table {
     min-width: 900px; }
     .custom-table thead tr, .custom-table thead th {
@@ -48,13 +46,11 @@ body {
         -webkit-box-shadow: 0 2px 10px -5px rgba(0, 0, 0, 0.1);
         box-shadow: 0 2px 10px -5px rgba(0, 0, 0, 0.1); }
     .custom-table tbody tr th, .custom-table tbody tr td {
-      background: #25252b;
+      background: rgba(0, 0, 0, 0.6);
       border: none;
       -webkit-transition: .3s all ease;
       -o-transition: .3s all ease;
       transition: .3s all ease; }
-      .custom-table tbody tr th a, .custom-table tbody tr td a {
-        color: #2e2e36; }
       .custom-table tbody tr th:first-child, .custom-table tbody tr td:first-child {
         border-top-left-radius: 0px;
         border-bottom-left-radius: 0px; }
@@ -66,3 +62,19 @@ body {
       height: 7px;
       border-radius: 0 !important;
       background: transparent !important; }
+
+#first {
+  background: linear-gradient(80deg, #198754 0%, #198754 5%, rgba(0,0,0,0.6) 8%);
+}
+
+#second {
+  background: linear-gradient(80deg, #0d6efd 0%, #0d6efd 5%, rgba(0,0,0,0.6) 8%);
+}
+
+#third {
+  background: linear-gradient(80deg,  #ffc107 0%,  #ffc107 5%, rgba(0,0,0,0.6) 8%);
+}
+
+#fourth, #last {
+  background: linear-gradient(80deg, #dc3545 0%, #dc3545 5%, rgba(0,0,0,0.6) 8%);
+}
